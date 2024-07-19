@@ -1,0 +1,23 @@
+@import "./vars.css";
+
+.App {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.toggleButton {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-roboto);
+}

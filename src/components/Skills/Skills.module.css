@@ -1,0 +1,116 @@
+@import "../../vars.css";
+
+/* Default Dark Mode Styles */
+.container {
+  position: relative;
+  color: var(--color-text);
+  background-color: rgba(12, 12, 12, 0.6); /* Darker background color */
+  border-radius: 15px;
+  padding: calc(73px * 0.94); /* Reduce padding by 6% */
+  margin-top: calc(129px * 0.94); /* Reduce margin-top by 6% */
+  margin-left: calc(10% * 0.94); /* Reduce margin-left by 6% */
+  margin-right: calc(10% * 0.94); /* Reduce margin-right by 6% */
+}
+
+.title {
+  color: var(--color-text);
+  font-size: calc((35px - 6%) * 0.94); /* Reduce font size by 6% */
+  font-weight: 700;
+  letter-spacing: calc(1.75px * 0.94); /* Reduce letter spacing by 6% */
+  text-transform: uppercase;
+  text-align: center; /* Center the title text */
+  margin-bottom: calc(20px * 0.94); /* Reduce margin-bottom by 6% */
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* Center the content */
+  gap: calc(14px * 0.94); /* Reduce gap between sections by 6% */
+  margin-top: calc(14px * 0.94); /* Reduce margin-top by 6% */
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(136.5px * 0.94), 1fr)); /* Adjust grid columns by 6% */
+  gap: calc(20px * 0.94); /* Reduce gap between grid items by 6% */
+  width: 100%;
+}
+
+.skillItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center the content within each skillItem */
+  padding: calc(24px * 0.94); /* Reduce padding by 6% */
+  margin-bottom: calc(10px * 0.94); /* Reduce bottom margin by 6% */
+  width: 100%; /* Fix width of each skillItem */
+  text-align: center;
+}
+
+.skillItem img {
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+  max-width: calc(95% * 0.94); /* Reduce max-width by 6% */
+  max-height: calc(95% * 0.94); /* Reduce max-height by 6% */
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .title {
+    margin-left: calc(10% * 0.94);
+    margin-right: calc(10% * 0.94);
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: calc(34px * 0.94);
+  }
+
+  .skillsGrid {
+    width: 100%;
+    gap: calc(9px * 0.94);
+  }
+}
+
+/* Light Mode Styles */
+[data-theme='light'] .container {
+  background-color: rgba(188, 200, 227, 0.8); /* Lighter background color for light mode */
+}
+
+[data-theme='light'] .title {
+  color: black; /* Change title color for light mode */
+}
+
+[data-theme='light'] .content {
+  color: black; /* Text color for light mode */
+}
+
+[data-theme='light'] .skillsGrid {
+  gap: calc(15px * 0.94); /* Slightly larger gap for light mode */
+}
+
+[data-theme='light'] .skillItem {
+  background-color: rgb(162, 199, 237); /* Light background for skill items */
+  border: 1px solid var(--color-dark); /* Add border for skill items in light mode */
+}
+
+[data-theme='light'] .skillItem img {
+  max-width: calc(100% * 0.94); /* Adjust image size for light mode */
+  max-height: calc(100% * 0.94); /* Adjust image size for light mode */
+}
+
+.skillsHeading {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-text);
+  text-align: center;
+  margin-bottom: 20px;
+}

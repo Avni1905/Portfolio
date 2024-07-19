@@ -1,0 +1,50 @@
+[
+  {
+      "title": "ComplaintFix",
+      "imageSrc": "projects/complaintfix.svg",
+      "description": "Simplifies issue reporting for students and teachers with a dashboard for monitoring and resolving issues efficiently.",
+      "skills": ["ReactJS", "ExpressJS", "NodeJS", "MongoDB", "Bootstrap", "Excel"],
+      "liveWebsite": "https://www.example.com",
+      "source": "https://github.com/Avni1905/ComplaintSystem"
+  },
+  {
+      "title": "Readscape",
+      "imageSrc": "projects/readscape.svg",
+      "description": "A MERN stack bookstore with Stripe integration, user authentication, personalized carts, and order history tracking.",
+      "skills": ["ReactJS", "ExpressJS", "NodeJS", "MongoDB", "Stripe"],
+      "liveWebsite": "https://www.example.com",
+      "source": "https://github.com/Avni1905/E-Bookstore"
+  },
+  {
+      "title": "EqualityEclipse",
+      "imageSrc": "projects/equalityeclipse.svg",
+      "description": "Educational site offering special courses for women and girls aged 15-25 via YouTube videos and webpages.",
+      "skills": ["HTML", "CSS", "JavaScript", "expressJS", "NodeJs", "MongoDB"],
+      "liveWebsite": "https://www.example.com",
+      "source": "https://github.com/Avni1905/Equality-Eclipse"
+  },
+  {
+      "title": "EarthWeatherSphere",
+      "imageSrc": "projects/cesium.svg",
+      "description": "Provides real-time global weather updates and temperature data with interactive maps using Cesium.js.",
+      "skills": ["HTML", "CSS", "JavaScript", "CesiumJS"],
+      "liveWebsite": "https://avni1905.github.io/Cesium-Temperature/",
+      "source": "https://github.com/Avni1905/Cesium-Temperature"
+  },
+  {
+      "title": "PixelPress",
+      "imageSrc": "projects/img.svg",
+      "description": "Image management platform allowing users to upload, compress, and organize images with Bootstrap and Express.js.",
+      "skills": ["HTML", "Bootstrap", "ExpressJS", "NodeJS", "MongoDB", "Multer"],
+      "liveWebsite": "https://www.example.com",
+      "source": "https://github.com/Avni1905/Image-Compressor"
+  },
+  {
+      "title": "HealthMetric",
+      "imageSrc": "projects/bmi.svg",
+      "description": "Tool to calculate and monitor BMI values, offering users clear insights into their health and fitness status.",
+      "skills": ["ReactJS", "Bootstrap"],
+      "liveWebsite": "https://www.example.com",
+      "source": "https://github.com/Avni1905/BMI-Calculator"
+  }
+]

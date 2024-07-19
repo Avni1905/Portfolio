@@ -1,0 +1,66 @@
+[
+  {
+    "title": "",
+    "imageSrc": "skills/html.svg"
+  },
+  {
+    "title": "",
+    "imageSrc": "skills/css.svg"
+  },
+  {
+    "title": "",
+    "imageSrc": "skills/react.svg"
+  },
+  {
+    "title": "",
+    "imageSrc": "skills/node.svg"
+  },
+  {
+    "title": "",
+    "imageSrc": "skills/express.svg"
+  },
+  {
+    "title": "",
+    "imageSrc": "skills/mongodb.svg"
+  },
+  {
+    "title": "",
+    "imageSrc": "skills/figma.svg"
+  },
+  {
+    "title": "",
+    "imageSrc": "skills/bootstrap.svg"
+  },
+  {
+    "title": "",
+    "imageSrc": "skills/cpp.svg"
+  },
+  {
+    "title": "",
+    "imageSrc": "skills/git.svg"
+  },
+  {
+    "title": "",
+    "imageSrc": "skills/github.svg"
+  },
+  {
+    "title": "",
+    "imageSrc": "skills/js.svg"
+  },
+  {
+    "title": "",
+    "imageSrc": "skills/mysql.svg"
+  },
+  {
+    "title": "",
+    "imageSrc": "skills/vsc.svg"
+  },
+  {
+    "title": "",
+    "imageSrc": "skills/vercel.svg"
+  },
+  {
+    "title": "",
+    "imageSrc": "skills/render.svg"
+  }
+]

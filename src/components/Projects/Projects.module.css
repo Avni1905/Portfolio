@@ -1,0 +1,57 @@
+@import "../../vars.css";
+
+/* Default Dark Mode Styles */
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-top: 60px;
+}
+
+.projects {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+/* Light Mode Styles */
+[data-theme='light'] .container {
+  background-color: var(--color-bg-light); /* Add a light background color if needed */
+  color: var(--color-text-light); /* Update text color for light mode */
+}
+
+[data-theme='light'] .title {
+  color: var(--color-primary-light); /* Adjust title color for light mode */
+}
+
+[data-theme='light'] .projects {
+  gap: 20px; /* Optionally adjust spacing for light mode */
+}
+
+/* Dark Mode Styles */
+[data-theme='dark'] .container {
+  background-color: var(--color-bg-dark); /* Add a dark background color if needed */
+  color: var(--color-text-dark); /* Update text color for dark mode */
+}
+
+[data-theme='dark'] .title {
+  color: var(--color-primary-dark); /* Adjust title color for dark mode */
+}
+
+[data-theme='dark'] .projects {
+  gap: 15px; /* Default spacing for dark mode */
+}

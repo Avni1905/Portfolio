@@ -1,0 +1,18 @@
+@import "../../vars.css";
+
+/* Default Dark Mode Styles */
+.footer {
+  background: rgb(2, 2, 55); /* Use a dark color for the background in dark mode */
+  color: var(--color-text); /* Text color based on the theme */
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  border-top: 1px solid blue; /* Border color based on the theme */
+}
+
+/* Light Mode Styles */
+[data-theme='light'] .footer {
+  background: rgb(148, 180, 243); /* Use a light background color for light mode */
+  color: var(--color-text-light); /* Light mode text color */
+  border-top: 1px solid var(--color-dark-light)\; /* Light mode border color */
+}

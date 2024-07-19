@@ -1,0 +1,68 @@
+[
+    {
+      "role": "Web Developer Intern",
+      "organisation": "Manav Rachna Innovation and Incubation Center ",
+      "startDate": "June, 2024",
+      "endDate": "Present",
+      "experiences": ["learned to work in collaboration with other developers and developed various types of projects"],
+      "imageSrc": "history/mriic.svg"
+    },
+    {
+      "role": "Vice President",
+      "organisation": "FSCDC, MRIIRS",
+      "startDate": "Feb, 2024",
+      "endDate": "Present",
+      "experiences": ["Vice President at Full Stack Cloud Development Club at Manav Rachna International Institute of Research and Studies"
+    ],
+      "imageSrc": "history/fscdc.svg"
+    },
+    {
+      "role": "Member",
+      "organisation": "Student Welfare, MRIIRS",
+      "startDate": "Jan, 2023",
+      "endDate": "Present",
+      "experiences": ["Member of student council at Manav Rachna International Institute of Research and Studies"
+    ],
+      "imageSrc": "history/dsw.svg"
+    },
+    {
+      "role": "Web Developer Intern",
+      "organisation": "Octanet Services Pvt. Ltd.",
+      "startDate": "June, 2024",
+      "endDate": "July, 2024",
+      "experiences": ["Created a Landing Page of an E-learning Website using HTML, CSS and JavaScript",
+      "Created a to-Do-List using HTML, CSS and JavaScript"
+    ],
+      "imageSrc": "history/octanet.svg"
+    },
+    {
+      "role": "Web Developer Intern",
+      "organisation": "Codsoft",
+      "startDate": "May, 2024",
+      "endDate": "June, 2024",
+      "experiences": ["Created a Landing Page of a Coffee Shop using HTML and CSS",
+      "Created a Simple Calculator using HTML, CSS and JavaScript"
+    ],
+      "imageSrc": "history/codsoft.svg"
+    },
+    {
+      "role": "Web Developer Intern",
+      "organisation": "Bharat Intern",
+      "startDate": "Aug, 2023",
+      "endDate": "Sept, 2023",
+      "experiences": ["Created a website having similar homepage that of Netflix using HTML and CSS",
+      "Created a website using CSS, HTML, JavaScript to convert temperature from Celsius to Fahrenheit"
+    ],
+      "imageSrc": "history/bharat.svg"
+    },
+    {
+      "role": "Web Developer Intern",
+      "organisation": "Curtina Technologies",
+      "startDate": "June, 2023",
+      "endDate": "July, 2023",
+      "experiences": [
+        "Implemented UI of Contact Us and About Us webpage for the website using HTML, CSS and JavaScript."
+      ],
+      "imageSrc": "history/curtina.svg"
+    }
+  ]

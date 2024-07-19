@@ -1,0 +1,22 @@
+/* vars.css */
+
+/* Default Dark Mode Colors */
+:root {
+  --color-text: #fff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: hsl(0, 40%, 38%);
+  --color-bg: #04152d;
+  --font-roboto: "Roboto";
+  --gradient-bg: linear-gradient(180deg, #04152d 0%, #19376d 100%);
+}
+
+/* Light Mode Colors */
+[data-theme='light'] {
+  --color-text: #000;
+  --color-primary: #007bff;
+  --color-secondary: #0056b3;
+  --color-dark: hsl(0, 0%, 40%);
+  --color-bg:  rgba(111, 149, 218, 0.7);
+  --gradient-bg: linear-gradient(180deg, #c3c7ce 0%);
+}
