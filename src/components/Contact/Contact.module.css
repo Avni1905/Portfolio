@@ -9,8 +9,7 @@
   position: relative;
   z-index: 1;
   padding: 0px;
-  background: var(--gradient-bg); /* Apply gradient background based on the theme */
-}
+  background: linear-gradient(180deg, #022b64 0%, #19379d 100%); 
 
 /* Styles for the wrapper */
 .Wrapper {
