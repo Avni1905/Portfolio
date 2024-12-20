@@ -43,7 +43,7 @@ export const Hero = () => {
           I am someone who loves turning ideas into reality with code. What started as a curious hobby has become my dedicated pursuit of knowledge and expertise in technology. I enjoy tackling complex problems and constantly learning new things to stay ahead. Excited about the future, I am looking forward to making a meaningful impact in the world of tech.
         </p>
         <a
-          href="https://drive.google.com/file/d/1Cys8awRLbjg8StWz7kj7vS8ZZWiNoqtF/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1HwFr1NTnN2xX_iKD9gXXEuF44r0f_oQp/view?usp=drive_link"
           className={styles.resumeBtn}
           target="_blank"
           rel="noopener noreferrer"
