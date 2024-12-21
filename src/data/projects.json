@@ -52,7 +52,7 @@
       "imageSrc": "projects/bmi.svg",
       "description": "Tool to calculate and monitor BMI values, offering users clear insights into their health and fitness status.",
       "skills": ["ReactJS", "Bootstrap"],
-      "liveWebsite": ""https://github.com/Avni1905/BMI-Calculator"",
+      "liveWebsite": "https://github.com/Avni1905/BMI-Calculator",
       "source": "https://github.com/Avni1905/BMI-Calculator"
   }
 ]
